@@ -27,10 +27,10 @@ npm install primeicons --save
 npm install @angular/animations --save
 npm install primeflex --save
 
-Dentro de app.module.ts importar:
+> Dentro de app.module.ts importar:
     import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-Dentro do angular.json:
+> Dentro do angular.json:
     "styles": [
       "src/styles.css",
       "node_modules/primeng/resources/themes/saga-blue/theme.css",
@@ -38,6 +38,15 @@ Dentro do angular.json:
       "node_modules/primeicons/primeicons.css",
       "node_modules/primeflex/primeflex.css"
     ],
+
+<strong>Outras Dependências</strong>    
+Ainda foi utizado outras dependências para essa aplicação como:
+- Sass (scss)
+- routing
+
+<strong>Integração com API externa:</strong>
+Foi integrado ao projeto uma API externa publica do site https://pokeapi.co/
+
 
 <strong>Licença</strong>
 Não se aplica.
