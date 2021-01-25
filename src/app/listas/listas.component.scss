@@ -1,0 +1,6 @@
+@import "/src/styles.scss";
+
+table th, table td{
+    border:1px solid $orange;
+    padding:3px 10px;
+}

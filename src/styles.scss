@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import "var.scss";
+@import "assets/fonts/fonts.scss";
+
+body {
+    font-family: 'DroidSans';
+    background-color: $cinza;
+    margin:0;
+    padding: 0;
+}
+
+.dados {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    top: 25px;
+    padding-bottom: 100px;
+    clear: both;
+}
+
+.zoom{
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+         -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+          -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+             transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  
+    &:hover{
+      -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+      opacity:0.60; -moz-opacity:0.60; filter:alpha(opacity=60); -khtml-opacity:.60; -ms-filter:"alpha(opacity=60)";
+    }
+    
+  }

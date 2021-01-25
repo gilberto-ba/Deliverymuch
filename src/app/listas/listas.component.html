@@ -1,0 +1,18 @@
+<div class="dados">
+  <p-scrollTop></p-scrollTop>
+  <section>
+      <h4>Listagem das gerações de games do Pokémon </h4>
+      <table>
+        <tr>
+          <th>Id:</th>
+          <th>Nome:</th>
+          <th>Url:</th>
+        </tr>
+        <tr *ngFor="let dados of listas.results">
+          <td>{{dados.id}}</td>
+          <td>{{dados.name}}</td>
+          <td>{{dados.url}}</td>
+        </tr>
+     </table>
+  </section>
+</div>

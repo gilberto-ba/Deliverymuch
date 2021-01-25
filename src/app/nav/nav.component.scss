@@ -1,0 +1,50 @@
+@import "/src/styles.scss";
+
+div {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    flex-direction: row-reverse;
+  
+    a {
+        width: 120px;
+        height: 100%;
+        background-color: $orange-hover;
+        margin: 0;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.950rem;
+        color: $black;
+
+        span{
+            font-family: 'DroidSans';
+        }
+        
+        &:hover {
+            background-color:$orange-dark;
+            color: white;
+            opacity: 0.9;
+        }
+        &.active {
+            background-color: $orange-dark;
+            color: white;
+            opacity: 1;
+        }
+    }
+}
+
+
+/* Mobile ate 768px */
+
+@media only all and (max-device-width: 768px) {
+    div {
+        width: 65%;
+        a {
+            width: 60px;
+            font-size: 0.700rem;
+        }
+    }
+}

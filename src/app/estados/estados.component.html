@@ -1,0 +1,41 @@
+<div class="dados home">
+  <section>
+      <h4>Listagem dos Estados do Brasil IBGE</h4>
+      <table>
+        <tr>
+          <th>
+            id:
+          </th>
+          <th>
+            Sigla:
+          </th>
+          <th>
+            Nome:
+          </th>
+          <th>
+            Sigla:
+          </th>
+          <th>
+            Regiao:
+          </th>
+        </tr>
+        <tr *ngFor="let dados of estados">
+          <td>
+            {{ dados.id }}
+          </td>
+          <td>
+            {{ dados.sigla }}
+          </td>
+          <td>
+            {{ dados.nome | uppercase}}
+          </td>
+          <td>
+            {{ dados.regiao.sigla }}
+          </td>
+          <td>
+            {{ dados.regiao.nome }}
+          </td>
+        </tr>
+     </table>
+  </section>
+</div>
