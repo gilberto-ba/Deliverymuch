@@ -1,4 +1,4 @@
-<img src="assets/img/logo.png">
+<img src="https://github.com/gilberto-ba/Deliverymuch/blob/master/src/assets/img/logo_pokeapi.png?raw=true" width="200" height="80" alt="Pokemon">
 
 # Deliverymuch
 <h3>Challenge</h3>
