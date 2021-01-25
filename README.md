@@ -3,21 +3,25 @@
 # Deliverymuch
 <h3>Challenge</h3>
 
-<strong>Descrição:</strong>
+<strong>Descrição:</strong><br />
 Projeto que apresente a listagem das gerações de games do
 Pokémon e seus respectivos detalhes (nome, número de pokémons,
 listagem de pokémons, etc).
 
-<strong>Pré-requisitos</strong>
+<strong>Pré-requisitos</strong><br />
 Para executar o projeto, será necessário instalar os seguintes programas:
 - Node.js
+- Npm
 - Angular CLI 11
 
-<strong>Iniciando</strong>
+<strong>Iniciando</strong><br />
 - git clone https://github.com/gilberto-ba/Deliverymuch.git
 - cd Deliverymuch
 
-<strong>Dependências</strong>
+<strong>Comando utilizado na criação do projeto</strong><br />
+> ng new Deliverymuch --style=scss --routing
+
+<strong>Dependências</strong><br />
 O desenvolvimento de código em Angular CLI V.11, em geral, usufrui de um significativo conjunto de bibliotecas e frameworks. Esta reutilização é incorporada em um projeto por meio de dependências.
 
 - Framework Primeng 
@@ -39,14 +43,19 @@ npm install primeflex --save
       "node_modules/primeflex/primeflex.css"
     ],
 
-<strong>Outras Dependências</strong>    
+<strong>Construído com</strong><br />    
 Ainda foi utizado outras dependências para essa aplicação como:
 - Sass (scss)
-- routing
+>
 
-<strong>Integração com API externa:</strong>
+- routing
+> 
+
+<strong>Integração com API externa</strong><br />
 Foi integrado ao projeto uma API externa publica do site https://pokeapi.co/
 
+<strong>Executando os testes</strong><br />
+Explicar como executar os testes automatizados para este sistema.
 
-<strong>Licença</strong>
+<strong>Licença</strong><br />
 Não se aplica.
