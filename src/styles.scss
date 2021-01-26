@@ -35,3 +35,13 @@ body {
     }
     
   }
+
+  /* Mobile ate 768px */
+@media only all and (max-device-width: 768px) {
+  
+  .dados {
+      width: 95%;
+      top: 15px;
+  }
+  
+}

@@ -31,3 +31,17 @@ table{
         }
     }
 }
+
+/* Mobile ate 768px */
+@media only all and (max-device-width: 768px) {
+  
+    table{
+        font-size: 0.700rem;
+
+        th{
+            font-size: 0.750rem;
+            
+        }
+    }
+  
+}
