@@ -32,10 +32,10 @@ https://www.primefaces.org/primeng/<br />
 > npm install primeflex --save<br /> 
 > npm install @angular/cdk --save
 
-# Dentro de app.module.ts importar:
+<strong>Dentro de app.module.ts importar:m</strong><br />
     import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-# Dentro do angular.json:
+<strong>Dentro do angular.json:m</strong><br />
     "styles": [
       "src/styles.css",
       "node_modules/primeng/resources/themes/saga-blue/theme.css",
@@ -46,20 +46,17 @@ https://www.primefaces.org/primeng/<br />
 
 <strong>Construído com</strong><br />    
 Ainda foi utizado outras dependências para essa aplicação como:
-- Sass (scss)
->
-
+- Sass (scss)<br /> 
 - routing
-> 
 
 <strong>Integração com API externa</strong><br />
 Foi integrado ao projeto uma API externa publica do site https://pokeapi.co/
 
 <strong>Executando os testes</strong><br />
-Explicar como executar os testes automatizados para este sistema.
+Loren Ipsum.
 
 <strong>Build</strong><br />
-Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the -prod flag for a production build.
+> ng build
 
 <strong>Auto</strong><br />
 <a href="http://www.impactodesigner.com.br/portfolio/" target="_blank">Gilberto Moral Lopes</a>
