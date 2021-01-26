@@ -14,7 +14,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 - Npm
 - Angular CLI 11
 
-<strong>Iniciando</strong><br />
+<strong>Iniciando</strong>
 - git clone https://github.com/gilberto-ba/Deliverymuch.git
 - cd Deliverymuch
 
@@ -32,10 +32,10 @@ https://www.primefaces.org/primeng/<br />
 > npm install primeflex --save<br /> 
 > npm install @angular/cdk --save
 
-<strong>Dentro de app.module.ts importar:m</strong><br />
+<strong>Dentro de app.module.ts importar:</strong><br />
     import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-<strong>Dentro do angular.json:m</strong><br />
+<strong>Dentro do angular.json:</strong><br />
     "styles": [
       "src/styles.css",
       "node_modules/primeng/resources/themes/saga-blue/theme.css",
@@ -44,7 +44,7 @@ https://www.primefaces.org/primeng/<br />
       "node_modules/primeflex/primeflex.css"
     ],
 
-<strong>Construído com</strong><br />    
+<strong>Construído com</strong> 
 Ainda foi utizado outras dependências para essa aplicação como:
 - Sass (scss)<br /> 
 - routing
@@ -58,7 +58,7 @@ Loren Ipsum.
 <strong>Build</strong><br />
 > ng build
 
-<strong>Auto</strong><br />
+<strong>Autor</strong><br />
 <a href="http://www.impactodesigner.com.br/portfolio/" target="_blank">Gilberto Moral Lopes</a>
 
 <strong>Licença</strong><br />
