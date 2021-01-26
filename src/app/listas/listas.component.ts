@@ -8,8 +8,9 @@ import { ListasService } from '../listas.service';
 })
 export class ListasComponent implements OnInit {
 
-  listas: any 
-  
+  listas: any;
+  name = "";
+
   constructor(private listasService:ListasService) { }
 
   ngOnInit() {

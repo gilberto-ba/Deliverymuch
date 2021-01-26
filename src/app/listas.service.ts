@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
 export class ListasService {
 
   PokeApiUrl = "https://pokeapi.co/api/v2/pokemon/?limit=20000"

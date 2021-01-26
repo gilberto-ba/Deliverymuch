@@ -5,9 +5,9 @@
       <table>
         <tr>
           <th class="p-text-center">Nome do Pokémon:</th>
-          <th class="p-text-center">Url daAPI do Pokémon:</th>
+          <th class="p-text-center">Url da API do Pokémon:</th>
         </tr>
-        <tr *ngFor="let dados of listas.results">
+        <tr *ngFor="let dados of listas?.results">
           <td class="p-text-center p-text-uppercase">{{dados.name}}</td>
           <td class="p-text-center">
             <a href="{{dados.url}}" target="_blank">{{dados.url}}</a>
