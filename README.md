@@ -26,16 +26,16 @@ O desenvolvimento de código em Angular CLI V.11, em geral, usufrui de um signif
 
 - Framework Primeng 
 https://www.primefaces.org/primeng/<br />
-> npm install primeng --save
-> npm install primeicons --save
-> npm install @angular/animations --save
-> npm install primeflex --save
+> npm install primeng --save<br /> 
+> npm install primeicons --save<br /> 
+> npm install @angular/animations --save<br /> 
+> npm install primeflex --save<br /> 
 > npm install @angular/cdk --save
 
-> Dentro de app.module.ts importar:
+# Dentro de app.module.ts importar:
     import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-> Dentro do angular.json:
+# Dentro do angular.json:
     "styles": [
       "src/styles.css",
       "node_modules/primeng/resources/themes/saga-blue/theme.css",
