@@ -25,11 +25,12 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 O desenvolvimento de código em Angular CLI V.11, em geral, usufrui de um significativo conjunto de bibliotecas e frameworks. Esta reutilização é incorporada em um projeto por meio de dependências.
 
 - Framework Primeng 
-https://www.primefaces.org/primeng/
-npm install primeng --save
-npm install primeicons --save
-npm install @angular/animations --save
-npm install primeflex --save
+https://www.primefaces.org/primeng/<br />
+> npm install primeng --save
+> npm install primeicons --save
+> npm install @angular/animations --save
+> npm install primeflex --save
+> npm install @angular/cdk --save
 
 > Dentro de app.module.ts importar:
     import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -56,6 +57,12 @@ Foi integrado ao projeto uma API externa publica do site https://pokeapi.co/
 
 <strong>Executando os testes</strong><br />
 Explicar como executar os testes automatizados para este sistema.
+
+<strong>Build</strong><br />
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the -prod flag for a production build.
+
+<strong>Auto</strong><br />
+<a href="http://www.impactodesigner.com.br/portfolio/" target="_blank">Gilberto Moral Lopes</a>
 
 <strong>Licença</strong><br />
 Não se aplica.

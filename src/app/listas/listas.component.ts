@@ -7,7 +7,9 @@ import { ListasService } from '../listas.service';
   styleUrls: ['./listas.component.scss']
 })
 export class ListasComponent implements OnInit {
+
   listas: any 
+  
   constructor(private listasService:ListasService) { }
 
   ngOnInit() {
@@ -17,5 +19,6 @@ export class ListasComponent implements OnInit {
       }
     ) 
   }
+  
 
 }

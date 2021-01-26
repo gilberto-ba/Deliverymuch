@@ -1,17 +1,17 @@
 <div class="dados">
   <p-scrollTop></p-scrollTop>
   <section>
-      <h4>Listagem das gerações de games do Pokémon </h4>
+      <h4>Listagem dos nomes dos Pokémon </h4>
       <table>
         <tr>
-          <th>Id:</th>
-          <th>Nome:</th>
-          <th>Url:</th>
+          <th class="p-text-center">Nome do Pokémon:</th>
+          <th class="p-text-center">Url daAPI do Pokémon:</th>
         </tr>
         <tr *ngFor="let dados of listas.results">
-          <td>{{dados.id}}</td>
-          <td>{{dados.name}}</td>
-          <td>{{dados.url}}</td>
+          <td class="p-text-center p-text-uppercase">{{dados.name}}</td>
+          <td class="p-text-center">
+            <a href="{{dados.url}}" target="_blank">{{dados.url}}</a>
+          </td>
         </tr>
      </table>
   </section>

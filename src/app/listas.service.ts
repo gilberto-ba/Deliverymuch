@@ -7,13 +7,12 @@ import { Observable } from 'rxjs';
 })
 export class ListasService {
 
-  PokeApiUrl = "https://pokeapi.co/api/v2/pokemon/?offset=1&limit=10000"
-  //PokeApiUrl = "https://jsonplaceholder.typicode.com/posts"
+  PokeApiUrl = "https://pokeapi.co/api/v2/pokemon/?limit=20000"
 
   constructor(private http: HttpClient) { }
 
-  getListas():Observable<any[]>{ // cria metodo
-    return this.http.get<any[]>(this.PokeApiUrl); // Consome o serviço da API do PokeApi
+  getListas():Observable<any[]>{ 
+    return this.http.get<any[]>(this.PokeApiUrl);
   }
 
 }

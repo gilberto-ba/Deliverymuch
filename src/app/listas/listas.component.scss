@@ -1,6 +1,33 @@
 @import "/src/styles.scss";
 
-table th, table td{
-    border:1px solid $orange;
-    padding:3px 10px;
+table{
+    width: 100%;
+    font-size: 0.950rem;
+
+    td{
+        &:hover{
+            background-color: $orange-light;
+        }
+    }
+
+    th{
+        background-color: $cinza-dark;
+        padding:10px 0;
+        font-size: 1.0rem;
+        
+    }
+
+    td{
+        background-color: $white;
+        border-bottom:2px double $cinza-dark;
+        padding:6px 0;
+    }
+
+    a{
+        color:$black;
+
+        &:hover{
+            color:$orange;
+        }
+    }
 }
