@@ -8,6 +8,9 @@ Projeto que apresente a listagem das gerações de games do
 Pokémon e seus respectivos detalhes (nome, número de pokémons,
 listagem de pokémons, etc).
 
+<strong>Link Produção</strong><br />
+http://www.impactodesigner.com.br/deliverymuch/<br />
+
 <strong>Pré-requisitos</strong><br />
 Para executar o projeto, será necessário instalar os seguintes programas:
 - Node.js
@@ -17,12 +20,17 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 <strong>Iniciando</strong>
 - git clone https://github.com/gilberto-ba/Deliverymuch.git
 - cd Deliverymuch
+- npm start
 
 <strong>Comando utilizado na criação do projeto</strong><br />
-> ng new Deliverymuch --style=scss --routing
+> ng new Deliverymuch --style=scss --routing<br />
+
+Ainda foi utizado outras dependências para essa aplicação como:<br />s
+- Sass (scss)<br /> 
+- routing<br />
 
 <strong>Dependências</strong><br />
-O desenvolvimento de código em Angular CLI V.11, em geral, usufrui de um significativo conjunto de bibliotecas e frameworks. Esta reutilização é incorporada em um projeto por meio de dependências.
+O desenvolvimento de código em Angular CLI v.11, em geral, usufrui de um significativo conjunto de bibliotecas e frameworks. Esta reutilização é incorporada em um projeto por meio de dependências.
 
 - Framework Primeng 
 https://www.primefaces.org/primeng/<br />
@@ -31,23 +39,7 @@ https://www.primefaces.org/primeng/<br />
 > npm install @angular/animations --save<br /> 
 > npm install primeflex --save<br /> 
 > npm install @angular/cdk --save<br />
-
-<strong>Dentro de app.module.ts importar:</strong><br />
-    import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
-<strong>Dentro do angular.json:</strong><br />
-    "styles": [
-      "src/styles.css",
-      "node_modules/primeng/resources/themes/saga-blue/theme.css",
-      "node_modules/primeng/resources/primeng.min.css",
-      "node_modules/primeicons/primeicons.css",
-      "node_modules/primeflex/primeflex.css"
-    ],
-
-<strong>Construído com</strong> 
-Ainda foi utizado outras dependências para essa aplicação como:
-- Sass (scss)<br /> 
-- routing
+> npm install ngx-pagination --save<br />
 
 <strong>Integração com API externa</strong><br />
 Foi integrado ao projeto uma API externa publica do site https://pokeapi.co/
