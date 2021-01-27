@@ -8,7 +8,7 @@
     display:flex;
     align-items: center;		
 	  justify-content: center;		
-    background: transparent url(/assets/img/home.jpg) no-repeat top center;
+    background: transparent url(#{$urlImages}/home.jpg) no-repeat top center;
     background-size: cover;
 
     .logo{
@@ -17,7 +17,7 @@
         height: 120px;
         margin:0 auto;
         display: flex;
-        background: transparent url(/assets/img/logo.png) no-repeat center center;
+        background: transparent url(#{$urlImages}/logo.png) no-repeat center center;
         background-size: 100%;
         animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
       alternate;

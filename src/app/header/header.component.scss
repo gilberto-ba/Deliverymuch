@@ -29,10 +29,10 @@ header {
             margin: 0;
             display: block;
             float: left;
-            background: transparent url(/assets/img/logo_pokeapi.png) no-repeat left center;
+            background: transparent url(#{$urlImages}/logo_pokeapi.png) no-repeat left center;
             background-size: auto 90%;
             text-indent: -99999px;
-        }       
+        }      
         
     }
 }
