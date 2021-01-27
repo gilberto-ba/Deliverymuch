@@ -30,7 +30,7 @@ https://www.primefaces.org/primeng/<br />
 > npm install primeicons --save<br /> 
 > npm install @angular/animations --save<br /> 
 > npm install primeflex --save<br /> 
-> npm install @angular/cdk --save
+> npm install @angular/cdk --save<br />
 
 <strong>Dentro de app.module.ts importar:</strong><br />
     import {BrowserAnimationsModule} from '@angular/platform-browser/animations';

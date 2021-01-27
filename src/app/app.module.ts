@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { TableModule } from 'primeng/table';
 import { KnobModule } from 'primeng/knob';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { ListasService } from './listas.service';
 import { CommonModule } from '@angular/common';
@@ -34,7 +35,8 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     ScrollTopModule,
     TableModule,
-    KnobModule
+    KnobModule,
+    NgxPaginationModule
   ],
   providers: [ListasService],
   bootstrap: [AppComponent]

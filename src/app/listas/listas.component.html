@@ -7,12 +7,13 @@
           <th class="p-text-center">Nome do Pokémon:</th>
           <th class="p-text-center">Url da API do Pokémon:</th>
         </tr>
-        <tr *ngFor="let dados of listas?.results">
+        <tr *ngFor="let dados of listas?.results | paginate: { itemsPerPage: 8, currentPage: paginaAtual }; let i = index">
           <td class="p-text-center p-text-uppercase">{{dados.name}}</td>
           <td class="p-text-center">
             <a href="{{dados.url}}" target="_blank">{{dados.url}}</a>
           </td>
         </tr>
      </table>
+     <pagination-controls (pageChange)="paginaAtual = $event"></pagination-controls>
   </section>
 </div>

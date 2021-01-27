@@ -32,6 +32,10 @@ table{
     }
 }
 
+.ngx-pagination .current{
+    background-color: $orange!important;
+}
+
 /* Mobile ate 768px */
 @media only all and (max-device-width: 768px) {
   
