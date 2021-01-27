@@ -1,5 +1,5 @@
 <div class="dados">
-  <p-scrollTop></p-scrollTop>
+  <!--<p-scrollTop></p-scrollTop>-->
   <section>
       <h4>Listagem dos nomes dos Pokémon </h4>
       <table>
@@ -14,6 +14,6 @@
           </td>
         </tr>
      </table>
-     <pagination-controls (pageChange)="paginaAtual = $event"></pagination-controls>
-  </section>
+     <pagination-controls (pageChange)="paginaAtual = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
+    </section>
 </div>

@@ -10,6 +10,7 @@ export class ListasComponent implements OnInit {
 
   listas: any;
   name = "";
+  public paginaAtual = 1
 
   constructor(private listasService:ListasService) { }
 
