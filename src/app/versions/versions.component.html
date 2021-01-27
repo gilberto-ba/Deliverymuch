@@ -1,13 +1,12 @@
 <div class="dados">
-  <!--<p-scrollTop></p-scrollTop>-->
   <section>
-      <h4>Nomes dos Pokémons</h4>
+      <h4>Games dos Pokémons</h4>
       <table>
         <tr>
           <th class="p-text-center">Nome do Pokémon:</th>
-          <th class="p-text-center">Url (Nomes):</th>
+          <th class="p-text-center">Url (Games):</th>
         </tr>
-        <tr *ngFor="let dados of listas?.results | paginate: { itemsPerPage: 8, currentPage: paginaAtual }; let i = index">
+        <tr *ngFor="let dados of versions?.results | paginate: { itemsPerPage: 8, currentPage: paginaAtual }; let i = index">
           <td class="p-text-center p-text-uppercase">{{dados.name}}</td>
           <td class="p-text-center">
             <a href="{{dados.url}}" target="_blank">{{dados.url}}</a>

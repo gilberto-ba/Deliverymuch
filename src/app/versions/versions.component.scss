@@ -1,0 +1,51 @@
+@import "/src/styles.scss";
+
+table{
+    width: 100%;
+    font-size: 0.950rem;
+
+    td{
+        &:hover{
+            background-color: $orange-light;
+        }
+    }
+
+    th{
+        background-color: $cinza-dark;
+        padding:10px 0;
+        font-size: 1.0rem;
+        
+    }
+
+    td{
+        background-color: $white;
+        border-bottom:2px double $cinza-dark;
+        padding:6px 0;
+    }
+
+    a{
+        color:$black;
+
+        &:hover{
+            color:$orange;
+        }
+    }
+}
+
+.ngx-pagination .current{
+    background-color: $orange!important;
+}
+
+/* Mobile ate 768px */
+@media only all and (max-device-width: 768px) {
+  
+    table{
+        font-size: 0.700rem;
+
+        th{
+            font-size: 0.750rem;
+            
+        }
+    }
+  
+}

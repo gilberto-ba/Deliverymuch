@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ListasComponent } from './listas/listas.component';
+import { VersionsComponent } from './versions/versions.component';
 import { NavComponent } from './nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ScrollTopModule } from 'primeng/scrolltop';
@@ -25,7 +26,8 @@ import { CommonModule } from '@angular/common';
     FooterComponent,
     HomeComponent,
     NavComponent,
-    ListasComponent
+    ListasComponent,
+    VersionsComponent
   ],
   imports: [
     BrowserModule,
