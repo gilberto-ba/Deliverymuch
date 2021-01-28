@@ -27,6 +27,8 @@ nav {
             background-color:$orange-dark;
             color: white;
             opacity: 0.9;
+            border-left:1px solid $orange-border;
+            border-right:1px solid $orange-border;
         }
         &.active {
             background-color: $orange-dark;

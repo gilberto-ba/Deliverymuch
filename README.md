@@ -44,9 +44,6 @@ https://www.primefaces.org/primeng/<br />
 <strong>Integração com API externa:</strong><br />
 Foi integrado ao projeto uma API externa publica do site https://pokeapi.co/
 
-<strong>Executando os testes:</strong><br />
-Loren Ipsum.
-
 <strong>Build:</strong><br />
 > ng build
 
