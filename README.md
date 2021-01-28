@@ -5,8 +5,7 @@
 
 <strong>Descrição:</strong><br />
 Projeto que apresente a listagem das gerações de games do
-Pokémon e seus respectivos detalhes (nome, número de pokémons,
-listagem de pokémons, etc).
+Pokémon e seus respectivos detalhes.
 
 <strong>Link Produção:</strong><br />
 http://www.impactodesigner.com.br/deliverymuch/<br />
@@ -25,7 +24,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 <strong>Comando utilizado na criação do projeto:</strong><br />
 > ng new Deliverymuch --style=scss --routing<br />
 
-Ainda foi utizado outras dependências para essa aplicação como:<br />s
+Ainda foi utizado outras dependências para essa aplicação como:<br />
 - Sass (scss)<br /> 
 - routing<br />
 
