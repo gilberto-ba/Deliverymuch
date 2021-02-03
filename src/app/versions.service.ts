@@ -10,6 +10,7 @@ export class VersionsService {
 
   PokeApiUrlGames = "https://pokeapi.co/api/v2/version/?limit=10000"
 
+  // injetando o HttpClient
   constructor(private http: HttpClient) { }
 
   getVersions():Observable<any[]>{ 
