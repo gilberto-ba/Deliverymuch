@@ -19,6 +19,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 <strong>Iniciando:</strong>
 - git clone https://github.com/gilberto-ba/Deliverymuch.git
 - cd Deliverymuch
+- npm install
 - npm start
 
 <strong>Comando utilizado na criação do projeto:</strong><br />
